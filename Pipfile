@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "~=1.5"
+pylint = "~=2.5"
+
+[packages]
+seaborn = "~=0.10"
+matplotlib = "~=3.3"
+scikit-learn = "~=0.23"
+pandas = "~=1.1"
+tensorflow = "==1.13.1"
+keras = "==2.1.6"
+numpy = "==1.16.2"
+nltk = "==3.4"
+tqdm = "*"
+requests = "~=2.24"
+
+[requires]
+python_version = "3.7"
